@@ -17,10 +17,25 @@
 - 依赖库：langchain、langgraph、chromadb、FlagEmbedding、PyPDF2、vllm、tqdm、pandas、numpy等（补充测试与微调依赖）
 - 硬件要求：建议GPU支持（显存≥10GB，用于模型部署与向量计算）
 
+## 项目结构
+RAG/
+├── Papers/               # 存放PDF文献（需手动放入）
+│   └── document deduplication.py  # 文献去重工具
+├── embedding_model/      # 嵌入模型（BGE-M3 / BGE-M3_ft）
+├── chroma_db/            # Chroma向量数据库
+├── logs/                 # 日志文件（模型下载、部署等）
+├── nodes.py              # 工作流节点定义（用户输入、检索、生成等）
+├── workflow.py           # LangGraph工作流控制
+├── rag.py                # LLM调用与检索逻辑
+├── knowledge_base.py     # 文献处理与知识库构建
+├── main.py               # 程序入口
+├── model_deploy.sh       # LLM模型部署脚本
+└── embedding_model_download.sh  # 嵌入模型下载脚本
+
 ## 安装部署
 
 ### 1. 项目克隆
-```bash
+<!-- ```bash -->
 # 克隆项目到本地（若使用版本控制）
 git clone <项目仓库地址>
 
@@ -43,7 +58,7 @@ git clone <项目仓库地址>
 
 
 ### 2. 模型微调（可选）
-    ```bash
+    <!-- ```bash -->
     # 嵌入模型微调（基于训练数据）
     python model_finetune.py --model_type embedding --data_path Train/embedding_train_data.jsonl
 
@@ -75,21 +90,6 @@ git clone <项目仓库地址>
 
     # 运行检索与问答评估
     python test.py
-
-项目结构：
-RAG/
-├── Papers/               # 存放PDF文献（需手动放入）
-│   └── document deduplication.py  # 文献去重工具
-├── embedding_model/      # 嵌入模型（BGE-M3 / BGE-M3_ft）
-├── chroma_db/            # Chroma向量数据库
-├── logs/                 # 日志文件（模型下载、部署等）
-├── nodes.py              # 工作流节点定义（用户输入、检索、生成等）
-├── workflow.py           # LangGraph工作流控制
-├── rag.py                # LLM调用与检索逻辑
-├── knowledge_base.py     # 文献处理与知识库构建
-├── main.py               # 程序入口
-├── model_deploy.sh       # LLM模型部署脚本
-└── embedding_model_download.sh  # 嵌入模型下载脚本
 
 注意事项
 1. 文献管理：建议定期备份Papers/目录下的文献，去重操作不可逆
