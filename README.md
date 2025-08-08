@@ -36,7 +36,6 @@ RAG/
 ## 安装部署
 
 ### 1. 项目克隆
-<!-- ```bash -->
 #### 克隆项目到本地
 git clone https://github.com/Gaowenbinyep/LaboratoryRetrievalRobot.git
 
@@ -59,7 +58,6 @@ git clone https://github.com/Gaowenbinyep/LaboratoryRetrievalRobot.git
 
 
 ### 2. 模型微调（可选）
-    <!-- ```bash -->
     # 嵌入模型微调（基于训练数据）
     python model_finetune.py --model_type embedding --data_path Train/embedding_train_data.jsonl
 
