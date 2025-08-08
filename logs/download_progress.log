@@ -1,0 +1,236 @@
+
+ _   .-')                _ .-') _     ('-.             .-')                              _ (`-.    ('-.
+( '.( OO )_             ( (  OO) )  _(  OO)           ( OO ).                           ( (OO  ) _(  OO)
+ ,--.   ,--.).-'),-----. \     .'_ (,------.,--.     (_)---\_)   .-----.  .-'),-----.  _.`     \(,------.
+ |   `.'   |( OO'  .-.  ',`'--..._) |  .---'|  |.-') /    _ |   '  .--./ ( OO'  .-.  '(__...--'' |  .---'
+ |         |/   |  | |  ||  |  \  ' |  |    |  | OO )\  :` `.   |  |('-. /   |  | |  | |  /  | | |  |
+ |  |'.'|  |\_) |  |\|  ||  |   ' |(|  '--. |  |`-' | '..`''.) /_) |OO  )\_) |  |\|  | |  |_.' |(|  '--.
+ |  |   |  |  \ |  | |  ||  |   / : |  .--'(|  '---.'.-._)   \ ||  |`-'|   \ |  | |  | |  .___.' |  .--'
+ |  |   |  |   `'  '-'  '|  '--'  / |  `---.|      | \       /(_'  '--'\    `'  '-'  ' |  |      |  `---.
+ `--'   `--'     `-----' `-------'  `------'`------'  `-----'    `-----'      `-----'  `--'      `------'
+
+Downloading Model from https://www.modelscope.cn to directory: /media/a822/82403B14403B0E83/Gwb/RAG/embedding_model/bge-m3
+Processing 2 items:   0%|          | 0.00/2.00 [00:00<?, ?it/s]
+Downloading [onnx/model.onnx_data]:   0%|          | 0.00/2.11G [00:00<?, ?B/s][A
+
+Downloading [pytorch_model.bin]:   0%|          | 0.00/2.12G [00:00<?, ?B/s][A[A
+Downloading [onnx/model.onnx_data]:  95%|█████████▍| 2.00G/2.11G [00:00<00:00, 2.93GB/s][A
+
+Downloading [pytorch_model.bin]:  89%|████████▉ | 1.89G/2.12G [00:01<00:00, 1.54GB/s][A[A
+
+Downloading [pytorch_model.bin]:  90%|█████████ | 1.91G/2.12G [00:19<00:00, 1.54GB/s][A[A
+Downloading [onnx/model.onnx_data]:  96%|█████████▌| 2.02G/2.11G [00:19<00:00, 2.93GB/s][A
+Downloading [onnx/model.onnx_data]:  96%|█████████▌| 2.02G/2.11G [00:20<00:01, 76.0MB/s][A
+Downloading [onnx/model.onnx_data]:  96%|█████████▌| 2.02G/2.11G [00:20<00:01, 73.0MB/s][A
+
+Downloading [pytorch_model.bin]:  90%|█████████ | 1.91G/2.12G [00:21<00:03, 69.7MB/s][A[A
+
+Downloading [pytorch_model.bin]:  91%|█████████ | 1.92G/2.12G [00:22<00:03, 65.9MB/s][A[A
+
+Downloading [pytorch_model.bin]:  92%|█████████▏| 1.94G/2.12G [00:39<00:02, 65.9MB/s][A[A
+Downloading [onnx/model.onnx_data]:  97%|█████████▋| 2.05G/2.11G [00:39<00:00, 73.0MB/s][A
+
+Downloading [pytorch_model.bin]:  92%|█████████▏| 1.94G/2.12G [00:40<00:07, 25.2MB/s][A[A
+Downloading [onnx/model.onnx_data]:  97%|█████████▋| 2.05G/2.11G [00:40<00:02, 25.8MB/s][A
+
+Downloading [pytorch_model.bin]:  92%|█████████▏| 1.94G/2.12G [00:40<00:07, 24.8MB/s][A[A
+Downloading [onnx/model.onnx_data]:  97%|█████████▋| 2.05G/2.11G [00:41<00:02, 24.6MB/s][A
+
+Downloading [pytorch_model.bin]:  93%|█████████▎| 1.97G/2.12G [00:59<00:06, 24.8MB/s][A[A
+Downloading [onnx/model.onnx_data]:  98%|█████████▊| 2.07G/2.11G [00:59<00:01, 24.6MB/s][A
+Downloading [onnx/model.onnx_data]:  98%|█████████▊| 2.07G/2.11G [01:00<00:03, 11.9MB/s][A
+
+Downloading [pytorch_model.bin]:  93%|█████████▎| 1.97G/2.12G [01:00<00:13, 11.5MB/s][A[A
+Downloading [onnx/model.onnx_data]:  98%|█████████▊| 2.07G/2.11G [01:00<00:03, 11.8MB/s][A
+
+Downloading [pytorch_model.bin]:  93%|█████████▎| 1.97G/2.12G [01:01<00:13, 11.1MB/s][A[A
+
+Downloading [pytorch_model.bin]:  94%|█████████▍| 1.99G/2.12G [01:13<00:18, 7.21MB/s][A[A
+
+Downloading [pytorch_model.bin]:  94%|█████████▍| 1.99G/2.12G [01:14<00:18, 7.02MB/s][A[A
+Downloading [onnx/model.onnx_data]:  99%|█████████▉| 2.10G/2.11G [01:20<00:01, 11.8MB/s][A
+Downloading [onnx/model.onnx_data]:  99%|█████████▉| 2.10G/2.11G [01:20<00:01, 6.28MB/s][A
+Downloading [onnx/model.onnx_data]: 100%|█████████▉| 2.10G/2.11G [01:20<00:01, 6.19MB/s][ADownloading [onnx/model.onnx_data]: 100%|██████████| 2.11G/2.11G [01:27<00:00, 25.9MB/s]
+
+
+Downloading [pytorch_model.bin]:  95%|█████████▍| 2.01G/2.12G [01:27<00:27, 4.23MB/s][A[A
+
+Downloading [pytorch_model.bin]:  95%|█████████▍| 2.01G/2.12G [01:28<00:27, 4.20MB/s][A[A
+
+Downloading [pytorch_model.bin]:  95%|█████████▌| 2.02G/2.12G [01:31<00:26, 3.97MB/s][A[AProcessing 2 items:  50%|█████     | 1.00/2.00 [01:32<01:32, 92.2s/it]
+
+Downloading [pytorch_model.bin]:  96%|█████████▌| 2.02G/2.12G [01:33<00:25, 3.84MB/s][A[A
+
+Downloading [pytorch_model.bin]:  96%|█████████▌| 2.03G/2.12G [01:35<00:25, 3.75MB/s][A[A
+
+Downloading [pytorch_model.bin]:  96%|█████████▌| 2.03G/2.12G [01:36<00:24, 3.67MB/s][A[A
+
+Downloading [pytorch_model.bin]:  96%|█████████▌| 2.03G/2.12G [01:37<00:24, 3.66MB/s][A[A
+
+Downloading [pytorch_model.bin]:  96%|█████████▌| 2.04G/2.12G [01:37<00:23, 3.67MB/s][A[A
+
+Downloading [pytorch_model.bin]:  96%|█████████▋| 2.04G/2.12G [01:38<00:22, 3.65MB/s][A[A
+
+Downloading [pytorch_model.bin]:  96%|█████████▋| 2.04G/2.12G [01:38<00:22, 3.68MB/s][A[A
+
+Downloading [pytorch_model.bin]:  96%|█████████▋| 2.04G/2.12G [01:38<00:22, 3.61MB/s][A[A
+
+Downloading [pytorch_model.bin]:  96%|█████████▋| 2.04G/2.12G [01:39<00:22, 3.62MB/s][A[A
+
+Downloading [pytorch_model.bin]:  96%|█████████▋| 2.04G/2.12G [01:39<00:23, 3.34MB/s][A[A
+
+Downloading [pytorch_model.bin]:  97%|█████████▋| 2.04G/2.12G [01:39<00:24, 3.24MB/s][A[A
+
+Downloading [pytorch_model.bin]:  97%|█████████▋| 2.04G/2.12G [01:40<00:25, 3.05MB/s][A[A
+
+Downloading [pytorch_model.bin]:  97%|█████████▋| 2.04G/2.12G [01:40<00:25, 2.94MB/s][A[A
+
+Downloading [pytorch_model.bin]:  97%|█████████▋| 2.04G/2.12G [01:41<00:28, 2.63MB/s][A[A
+
+Downloading [pytorch_model.bin]:  97%|█████████▋| 2.05G/2.12G [01:41<00:28, 2.59MB/s][A[A
+
+Downloading [pytorch_model.bin]:  97%|█████████▋| 2.05G/2.12G [01:42<00:29, 2.50MB/s][A[A
+
+Downloading [pytorch_model.bin]:  97%|█████████▋| 2.05G/2.12G [01:42<00:26, 2.71MB/s][A[A
+
+Downloading [pytorch_model.bin]:  97%|█████████▋| 2.05G/2.12G [01:42<00:24, 2.87MB/s][A[A
+
+Downloading [pytorch_model.bin]:  97%|█████████▋| 2.05G/2.12G [01:43<00:25, 2.75MB/s][A[A
+
+Downloading [pytorch_model.bin]:  97%|█████████▋| 2.05G/2.12G [01:43<00:23, 2.91MB/s][A[A
+
+Downloading [pytorch_model.bin]:  97%|█████████▋| 2.05G/2.12G [01:43<00:22, 3.03MB/s][A[A
+
+Downloading [pytorch_model.bin]:  97%|█████████▋| 2.05G/2.12G [01:44<00:23, 2.88MB/s][A[A
+
+Downloading [pytorch_model.bin]:  97%|█████████▋| 2.05G/2.12G [01:44<00:24, 2.67MB/s][A[A
+
+Downloading [pytorch_model.bin]:  97%|█████████▋| 2.05G/2.12G [01:44<00:22, 2.93MB/s][A[A
+
+Downloading [pytorch_model.bin]:  97%|█████████▋| 2.06G/2.12G [01:45<00:22, 2.81MB/s][A[A
+
+Downloading [pytorch_model.bin]:  97%|█████████▋| 2.06G/2.12G [01:45<00:20, 2.99MB/s][A[A
+
+Downloading [pytorch_model.bin]:  97%|█████████▋| 2.06G/2.12G [01:46<00:21, 2.86MB/s][A[A
+
+Downloading [pytorch_model.bin]:  97%|█████████▋| 2.06G/2.12G [01:46<00:21, 2.83MB/s][A[A
+
+Downloading [pytorch_model.bin]:  97%|█████████▋| 2.06G/2.12G [01:46<00:22, 2.64MB/s][A[A
+
+Downloading [pytorch_model.bin]:  97%|█████████▋| 2.06G/2.12G [01:47<00:21, 2.72MB/s][A[A
+
+Downloading [pytorch_model.bin]:  97%|█████████▋| 2.06G/2.12G [01:47<00:23, 2.48MB/s][A[A
+
+Downloading [pytorch_model.bin]:  98%|█████████▊| 2.06G/2.12G [01:48<00:26, 2.16MB/s][A[A
+
+Downloading [pytorch_model.bin]:  98%|█████████▊| 2.06G/2.12G [01:48<00:25, 2.16MB/s][A[A
+
+Downloading [pytorch_model.bin]:  98%|█████████▊| 2.06G/2.12G [01:49<00:27, 1.99MB/s][A[A
+
+Downloading [pytorch_model.bin]:  98%|█████████▊| 2.07G/2.12G [01:49<00:26, 1.99MB/s][A[A
+
+Downloading [pytorch_model.bin]:  98%|█████████▊| 2.07G/2.12G [01:50<00:28, 1.84MB/s][A[A
+
+Downloading [pytorch_model.bin]:  98%|█████████▊| 2.07G/2.12G [01:51<00:28, 1.81MB/s][A[A
+
+Downloading [pytorch_model.bin]:  98%|█████████▊| 2.07G/2.12G [01:52<00:32, 1.53MB/s][A[A
+
+Downloading [pytorch_model.bin]:  98%|█████████▊| 2.07G/2.12G [01:52<00:29, 1.69MB/s][A[A
+
+Downloading [pytorch_model.bin]:  98%|█████████▊| 2.07G/2.12G [01:52<00:24, 1.98MB/s][A[A
+
+Downloading [pytorch_model.bin]:  98%|█████████▊| 2.07G/2.12G [01:53<00:21, 2.21MB/s][A[A
+
+Downloading [pytorch_model.bin]:  98%|█████████▊| 2.07G/2.12G [01:53<00:19, 2.42MB/s][A[A
+
+Downloading [pytorch_model.bin]:  98%|█████████▊| 2.07G/2.12G [01:53<00:17, 2.65MB/s][A[A
+
+Downloading [pytorch_model.bin]:  98%|█████████▊| 2.07G/2.12G [01:54<00:15, 2.83MB/s][A[A
+
+Downloading [pytorch_model.bin]:  98%|█████████▊| 2.08G/2.12G [01:54<00:16, 2.67MB/s][A[A
+
+Downloading [pytorch_model.bin]:  98%|█████████▊| 2.08G/2.12G [01:55<00:14, 2.83MB/s][A[A
+
+Downloading [pytorch_model.bin]:  98%|█████████▊| 2.08G/2.12G [01:55<00:14, 2.84MB/s][A[A
+
+Downloading [pytorch_model.bin]:  98%|█████████▊| 2.08G/2.12G [01:55<00:14, 2.70MB/s][A[A
+
+Downloading [pytorch_model.bin]:  98%|█████████▊| 2.08G/2.12G [01:56<00:13, 2.91MB/s][A[A
+
+Downloading [pytorch_model.bin]:  98%|█████████▊| 2.08G/2.12G [01:56<00:11, 3.15MB/s][A[A
+
+Downloading [pytorch_model.bin]:  98%|█████████▊| 2.08G/2.12G [01:56<00:13, 2.65MB/s][A[A
+
+Downloading [pytorch_model.bin]:  98%|█████████▊| 2.08G/2.12G [01:57<00:12, 2.75MB/s][A[A
+
+Downloading [pytorch_model.bin]:  98%|█████████▊| 2.08G/2.12G [01:57<00:12, 2.69MB/s][A[A
+
+Downloading [pytorch_model.bin]:  99%|█████████▊| 2.08G/2.12G [01:57<00:11, 2.93MB/s][A[A
+
+Downloading [pytorch_model.bin]:  99%|█████████▊| 2.08G/2.12G [01:58<00:11, 2.82MB/s][A[A
+
+Downloading [pytorch_model.bin]:  99%|█████████▊| 2.09G/2.12G [01:58<00:11, 2.85MB/s][A[A
+
+Downloading [pytorch_model.bin]:  99%|█████████▊| 2.09G/2.12G [01:59<00:10, 2.77MB/s][A[A
+
+Downloading [pytorch_model.bin]:  99%|█████████▊| 2.09G/2.12G [01:59<00:10, 2.88MB/s][A[A
+
+Downloading [pytorch_model.bin]:  99%|█████████▉| 2.09G/2.12G [01:59<00:09, 2.92MB/s][A[A
+
+Downloading [pytorch_model.bin]:  99%|█████████▉| 2.09G/2.12G [02:00<00:09, 2.82MB/s][A[A
+
+Downloading [pytorch_model.bin]:  99%|█████████▉| 2.09G/2.12G [02:00<00:09, 2.86MB/s][A[A
+
+Downloading [pytorch_model.bin]:  99%|█████████▉| 2.09G/2.12G [02:01<00:09, 2.69MB/s][A[A
+
+Downloading [pytorch_model.bin]:  99%|█████████▉| 2.09G/2.12G [02:01<00:09, 2.65MB/s][A[A
+
+Downloading [pytorch_model.bin]:  99%|█████████▉| 2.09G/2.12G [02:01<00:08, 2.71MB/s][A[A
+
+Downloading [pytorch_model.bin]:  99%|█████████▉| 2.09G/2.12G [02:02<00:07, 2.82MB/s][A[A
+
+Downloading [pytorch_model.bin]:  99%|█████████▉| 2.10G/2.12G [02:02<00:07, 2.62MB/s][A[A
+
+Downloading [pytorch_model.bin]:  99%|█████████▉| 2.10G/2.12G [02:02<00:06, 2.97MB/s][A[A
+
+Downloading [pytorch_model.bin]:  99%|█████████▉| 2.10G/2.12G [02:03<00:06, 2.92MB/s][A[A
+
+Downloading [pytorch_model.bin]:  99%|█████████▉| 2.10G/2.12G [02:03<00:05, 3.27MB/s][A[A
+
+Downloading [pytorch_model.bin]:  99%|█████████▉| 2.10G/2.12G [02:03<00:05, 3.24MB/s][A[A
+
+Downloading [pytorch_model.bin]:  99%|█████████▉| 2.10G/2.12G [02:04<00:04, 3.37MB/s][A[A
+
+Downloading [pytorch_model.bin]:  99%|█████████▉| 2.10G/2.12G [02:04<00:04, 3.30MB/s][A[A
+
+Downloading [pytorch_model.bin]:  99%|█████████▉| 2.10G/2.12G [02:04<00:04, 2.94MB/s][A[A
+
+Downloading [pytorch_model.bin]:  99%|█████████▉| 2.10G/2.12G [02:05<00:04, 3.08MB/s][A[A
+
+Downloading [pytorch_model.bin]:  99%|█████████▉| 2.10G/2.12G [02:05<00:03, 3.00MB/s][A[A
+
+Downloading [pytorch_model.bin]: 100%|█████████▉| 2.11G/2.12G [02:05<00:03, 2.91MB/s][A[A
+
+Downloading [pytorch_model.bin]: 100%|█████████▉| 2.11G/2.12G [02:06<00:03, 2.67MB/s][A[A
+
+Downloading [pytorch_model.bin]: 100%|█████████▉| 2.11G/2.12G [02:06<00:03, 2.65MB/s][A[A
+
+Downloading [pytorch_model.bin]: 100%|█████████▉| 2.11G/2.12G [02:07<00:02, 2.59MB/s][A[A
+
+Downloading [pytorch_model.bin]: 100%|█████████▉| 2.11G/2.12G [02:07<00:02, 2.52MB/s][A[A
+
+Downloading [pytorch_model.bin]: 100%|█████████▉| 2.11G/2.12G [02:08<00:02, 2.58MB/s][A[A
+
+Downloading [pytorch_model.bin]: 100%|█████████▉| 2.11G/2.12G [02:08<00:01, 2.57MB/s][A[A
+
+Downloading [pytorch_model.bin]: 100%|█████████▉| 2.11G/2.12G [02:08<00:01, 2.55MB/s][A[A
+
+Downloading [pytorch_model.bin]: 100%|█████████▉| 2.11G/2.12G [02:09<00:00, 2.79MB/s][A[A
+
+Downloading [pytorch_model.bin]: 100%|█████████▉| 2.11G/2.12G [02:09<00:00, 2.63MB/s][A[A
+
+Downloading [pytorch_model.bin]: 100%|██████████| 2.12G/2.12G [02:09<00:00, 2.75MB/s][A[ADownloading [pytorch_model.bin]: 100%|██████████| 2.12G/2.12G [02:09<00:00, 17.5MB/s]
+Processing 2 items: 100%|██████████| 2.00/2.00 [02:14<00:00, 62.8s/it]Processing 2 items: 100%|██████████| 2.00/2.00 [02:14<00:00, 67.3s/it]
+
+Successfully Downloaded from model BAAI/bge-m3.
+

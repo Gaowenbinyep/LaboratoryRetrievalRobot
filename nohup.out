@@ -1,0 +1,73 @@
+initial target device:   0%|          | 0/2 [00:00<?, ?it/s]initial target device:  50%|█████     | 1/2 [00:04<00:04,  4.84s/it]initial target device: 100%|██████████| 2/2 [00:09<00:00,  4.85s/it]initial target device: 100%|██████████| 2/2 [00:09<00:00,  4.85s/it]
+Chunks:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 608.84it/s]
+You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+/home/a822/anaconda3/envs/RAG/lib/python3.11/site-packages/torch/nn/modules/module.py:1750: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `XLMRobertaSdpaSelfAttention.forward`.
+  return forward_call(*args, **kwargs)
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 76.57it/s]
+Chunks: 100%|██████████| 1/1 [00:01<00:00,  1.28s/it]Chunks: 100%|██████████| 1/1 [00:01<00:00,  1.28s/it]
+Traceback (most recent call last):
+  File "/media/a822/82403B14403B0E83/Gwb/RAG/knowledge_base.py", line 155, in <module>
+    res = db_query("髋关节外骨骼辅助跑步的研究")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/a822/82403B14403B0E83/Gwb/RAG/knowledge_base.py", line 123, in db_query
+    dense_candidates = db.similarity_search(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/a822/anaconda3/envs/RAG/lib/python3.11/site-packages/langchain_chroma/vectorstores.py", line 681, in similarity_search
+    docs_and_scores = self.similarity_search_with_score(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/a822/anaconda3/envs/RAG/lib/python3.11/site-packages/langchain_chroma/vectorstores.py", line 781, in similarity_search_with_score
+    query_embedding = self._embedding_function.embed_query(query)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/a822/82403B14403B0E83/Gwb/RAG/knowledge_base.py", line 28, in embed_query
+    "sparse": outputs["sparse_vecs"][0],
+              ~~~~~~~^^^^^^^^^^^^^^^
+KeyError: 'sparse_vecs'
+/home/a822/anaconda3/envs/RAG/lib/python3.11/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+initial target device:   0%|          | 0/2 [00:00<?, ?it/s]initial target device:  50%|█████     | 1/2 [00:04<00:04,  4.92s/it]initial target device: 100%|██████████| 2/2 [00:09<00:00,  4.90s/it]initial target device: 100%|██████████| 2/2 [00:09<00:00,  4.90s/it]
+Chunks:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize:   0%|          | 0/1 [00:00<?, ?it/s]pre tokenize: 100%|██████████| 1/1 [00:00<00:00, 699.28it/s]
+You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+/home/a822/anaconda3/envs/RAG/lib/python3.11/site-packages/torch/nn/modules/module.py:1750: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `XLMRobertaSdpaSelfAttention.forward`.
+  return forward_call(*args, **kwargs)
+Inference Embeddings:   0%|          | 0/1 [00:00<?, ?it/s]Inference Embeddings: 100%|██████████| 1/1 [00:00<00:00, 80.76it/s]
+Chunks: 100%|██████████| 1/1 [00:01<00:00,  1.27s/it]Chunks: 100%|██████████| 1/1 [00:01<00:00,  1.27s/it]
+Traceback (most recent call last):
+  File "/media/a822/82403B14403B0E83/Gwb/RAG/knowledge_base.py", line 155, in <module>
+    res = db_query("髋关节外骨骼辅助跑步的研究")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/a822/82403B14403B0E83/Gwb/RAG/knowledge_base.py", line 123, in db_query
+    dense_candidates = db.similarity_search(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/a822/anaconda3/envs/RAG/lib/python3.11/site-packages/langchain_chroma/vectorstores.py", line 681, in similarity_search
+    docs_and_scores = self.similarity_search_with_score(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/a822/anaconda3/envs/RAG/lib/python3.11/site-packages/langchain_chroma/vectorstores.py", line 782, in similarity_search_with_score
+    results = self.__query_collection(
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/a822/anaconda3/envs/RAG/lib/python3.11/site-packages/langchain_core/utils/utils.py", line 54, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/a822/anaconda3/envs/RAG/lib/python3.11/site-packages/langchain_chroma/vectorstores.py", line 473, in __query_collection
+    return self._collection.query(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/a822/anaconda3/envs/RAG/lib/python3.11/site-packages/chromadb/api/models/Collection.py", line 209, in query
+    query_request = self._validate_and_prepare_query_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/a822/anaconda3/envs/RAG/lib/python3.11/site-packages/chromadb/api/models/CollectionCommon.py", line 95, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/a822/anaconda3/envs/RAG/lib/python3.11/site-packages/chromadb/api/models/CollectionCommon.py", line 293, in _validate_and_prepare_query_request
+    query_records = normalize_base_record_set(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/a822/anaconda3/envs/RAG/lib/python3.11/site-packages/chromadb/api/types.py", line 248, in normalize_base_record_set
+    embeddings=normalize_embeddings(embeddings),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/a822/anaconda3/envs/RAG/lib/python3.11/site-packages/chromadb/api/types.py", line 172, in normalize_embeddings
+    raise ValueError(
+ValueError: Expected embeddings to be a list of floats or ints, a list of lists, a numpy array, or a list of numpy arrays, got [{'dense': array([-0.03467,  0.04324, -0.04312, ...,  0.01222,  0.05197,  0.04013],
+      shape=(1024,), dtype=float16), 'sparse': defaultdict(<class 'int'>, {'248165': np.float16(0.2355), '15900': np.float16(0.0732), '13182': np.float16(0.05478), '1998': np.float16(0.1663), '15735': np.float16(0.11414), '249870': np.float16(0.199), '178880': np.float16(0.2185), '171621': np.float16(0.289), '49755': np.float16(0.1671)})}] in query.
+/home/a822/anaconda3/envs/RAG/lib/python3.11/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+已添加 scirobotics.adk6717.pdf 的 82 个非空文档块
+Warning: No languages specified, defaulting to English.
+Chunks:   0%|          | 0/2 [00:00<?, ?it/s]

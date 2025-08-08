@@ -1,0 +1,15 @@
+1）知识（语料）收集与清洗
+    -智能文档技术
+2）准备测试集QA对
+    -大模型生成
+3）技术选型
+    -NativeRAG（单论对话）
+    -AgenticRAG
+4）搭建知识库
+    -LangChain
+        -LangGraph
+    -Qwen-Agent
+5）测试优化
+    -精度
+    -召回率
+    -Ragas
