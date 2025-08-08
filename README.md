@@ -39,7 +39,7 @@ RAG/
 <!-- ```bash -->
 # 克隆项目到本地
 git clone https://github.com/Gaowenbinyep/LaboratoryRetrievalRobot.git
-
+```
 模型下载：
     嵌入模型（BGE-M3）：
     # 后台下载BGE-M3嵌入模型（已配置脚本）
@@ -56,7 +56,7 @@ git clone https://github.com/Gaowenbinyep/LaboratoryRetrievalRobot.git
     sh model_deploy.sh
     # 查看模型服务日志
     tail -f logs/model_output.log
-
+```
 
 ### 2. 模型微调（可选）
     <!-- ```bash -->
