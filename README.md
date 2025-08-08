@@ -37,8 +37,8 @@ RAG/
 
 ### 1. 项目克隆
 <!-- ```bash -->
-# 克隆项目到本地（若使用版本控制）
-git clone <项目仓库地址>
+# 克隆项目到本地
+git clone https://github.com/Gaowenbinyep/LaboratoryRetrievalRobot.git
 
 模型下载：
     嵌入模型（BGE-M3）：
@@ -92,13 +92,13 @@ git clone <项目仓库地址>
     # 运行检索与问答评估
     python test.py
 
-注意事项
+## 注意事项
 1. 文献管理：建议定期备份Papers/目录下的文献，去重操作不可逆
 2. 模型资源：BGE-M3模型约占用5GB存储空间，Qwen3-1.7B模型约占用8GB
 3. 性能优化：检索结果数量（top_k）可在document_retrieve_node函数中调整（默认3）
 4. 使用限制：本工具仅用于实验室内部学术研究，禁止用于商业用途
 
-技术栈
+## 技术栈
     检索增强生成：LangChain + LangGraph
     嵌入模型：BGE-M3（支持 dense/sparse/multi-vector 检索）
     向量数据库：Chroma
