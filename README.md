@@ -39,15 +39,15 @@ RAG/
 <!-- ```bash -->
 # 克隆项目到本地
 git clone https://github.com/Gaowenbinyep/LaboratoryRetrievalRobot.git
-```
-模型下载：
+
+# 模型下载：
     嵌入模型（BGE-M3）：
     # 后台下载BGE-M3嵌入模型（已配置脚本）
     sh embedding_model_download.sh
     # 查看下载进度
     tail -f logs/download_progress.log
 
-    大语言模型（Qwen3-1.7B）
+    大语言模型（Qwen3-1.7B）:
     确保模型文件已放置于指定路径：
     model_path
 
