@@ -58,36 +58,36 @@ git clone https://github.com/Gaowenbinyep/LaboratoryRetrievalRobot.git
 
 
 ### 2. 模型微调（可选）
-    # 嵌入模型微调（基于训练数据）
+#### 嵌入模型微调（基于训练数据）
     python model_finetune.py --model_type embedding --data_path Train/embedding_train_data.jsonl
 
-    # 大语言模型微调（需额外配置训练参数）
+#### 大语言模型微调（需额外配置训练参数）
     python model_finetune.py --model_type llm --data_path Train/llm_train_data.jsonl
 
 
 ### 3. 知识库构建：
-    # 准备文献：将PDF文献放入Papers/目录
+#### 准备文献：将PDF文献放入Papers/目录
     # （可选）文献去重
     python Papers/document_deduplication.py
 
-    # 构建知识库（处理文献并写入向量数据库）
+#### 构建知识库（处理文献并写入向量数据库）
     python knowledge_base.py  # 需确保knowledge_base.py中db_build函数被调用
 
 ### 4. 使用说明
-    启动问答助手：
+#### 启动问答助手：
     python main.py
 
-    交互流程
+#### 交互流程
     1. 程序启动后，输入问题（例如："找膝关节外骨骼机器人的步态辅助机制的文章，给我列出题目、作者和主要内容"）
     2. 系统自动检索相关文献并生成回答
     3. 回答完成后，可选择继续提问（输入y）或退出（输入n）
     4. 输入"exit"、"quit"或"end"可直接退出程序
 
 ### 5. 测试评估：
-    # 生成QA测试对
+#### 生成QA测试对
     python QApairs_gen.py
 
-    # 运行检索与问答评估
+#### 运行检索与问答评估
     python test.py
 
 ## 注意事项
