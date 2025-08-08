@@ -37,10 +37,10 @@ RAG/
 
 ### 1. 项目克隆
 <!-- ```bash -->
-#### 克隆项目到本地
+克隆项目到本地
 git clone https://github.com/Gaowenbinyep/LaboratoryRetrievalRobot.git
 
-#### 模型下载：
+模型下载：
     嵌入模型（BGE-M3）：
     # 后台下载BGE-M3嵌入模型（已配置脚本）
     sh embedding_model_download.sh
