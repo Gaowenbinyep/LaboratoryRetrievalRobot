@@ -37,10 +37,10 @@ RAG/
 
 ### 1. 项目克隆
 <!-- ```bash -->
-克隆项目到本地
+#### 克隆项目到本地
 git clone https://github.com/Gaowenbinyep/LaboratoryRetrievalRobot.git
 
-模型下载：
+#### 模型下载：
     嵌入模型（BGE-M3）：
     # 后台下载BGE-M3嵌入模型（已配置脚本）
     sh embedding_model_download.sh
@@ -51,12 +51,12 @@ git clone https://github.com/Gaowenbinyep/LaboratoryRetrievalRobot.git
     确保模型文件已放置于指定路径：
     model_path
 
-    启动本地LLM服务：
+#### 启动本地LLM服务：
     # 部署Qwen3-1.7B模型（使用vllm）
     sh model_deploy.sh
     # 查看模型服务日志
     tail -f logs/model_output.log
-```
+
 
 ### 2. 模型微调（可选）
     <!-- ```bash -->
