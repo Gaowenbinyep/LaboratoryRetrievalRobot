@@ -18,6 +18,7 @@
 - 硬件要求：建议GPU支持（显存≥10GB，用于模型部署与向量计算）
 
 ## 项目结构
+```
 RAG/
 ├── Papers/               # 存放PDF文献（需手动放入）
 │   └── document deduplication.py  # 文献去重工具
@@ -31,7 +32,7 @@ RAG/
 ├── main.py               # 程序入口
 ├── model_deploy.sh       # LLM模型部署脚本
 └── embedding_model_download.sh  # 嵌入模型下载脚本
-
+```
 ## 安装部署
 
 ### 1. 项目克隆
